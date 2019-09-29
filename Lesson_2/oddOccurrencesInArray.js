@@ -1,15 +1,12 @@
 function oddOccurrencesInArray(arr){
-    console.log("===============");
     arr.sort();
     let temp=arr.shift();
     let isOdd=true;
 
     while(1){
-        console.log(arr);
         let top=arr.shift();
         if(top===temp){
             isOdd=!isOdd;
-            console.log(isOdd);
         }else{
             if(isOdd) return temp;
             temp=top;

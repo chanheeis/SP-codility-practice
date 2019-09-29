@@ -22,12 +22,5 @@ function binaryGap(testValue){
     }
 }
 
-console.log(binaryGap(567));
-console.log(binaryGap(1021));
-console.log(binaryGap(1024));
-console.log(binaryGap(98));
-console.log(binaryGap(432));
-console.log(binaryGap(10));
-console.log(binaryGap(1));
 
 
